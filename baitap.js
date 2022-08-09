@@ -22,6 +22,6 @@ document.write('S =' + S)
 
 
 // Chu vi hình tròn
-let r = parseInt(prompt("bán kinh"))
+let r = parseInt(prompt("bán kính"))
 let C = 3.14 * 2 * r
 document.write('C =' + C)
