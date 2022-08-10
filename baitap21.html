@@ -11,29 +11,33 @@
 <body>
     <table>
         <tr>
-            <td>Amount</td>
-            <td>From Currency</td>
-            <td>To Currency</td>
-            <td></td>
+            <th><label for="money">Amount</label></th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
         </tr>
         <tr>
-            <td><input type="number" id="money"></td>
+            <td><input type="text" id="money"></td>
             <td>
                 <select id="formcurrency">
-                    <option value="">VND</option>
-                    <option value="">USA</option>    
+                    <option value="VND">VND</option>
+                    <option value="USA">USA</option>    
                 </select>
             </td>
             <td>
                 <select id="tocurrency">
-                    <option value="">VND</option>
-                    <option value="">USA</option>
+                    <option value="VND">VND</option>
+                    <option value="USA">USA</option>
                 </select>
             </td>
-            <td><button id="btn" onclick="showConvert()">Convert</button></td>
+            <td><button onclick="showConvert()">Convert</button></td>
         </tr>
 
     </table>
+    <br>
+    <p id="result"></p>
 </body>
+<script src="baitap21.js">
 
+</script>
 </html>
