@@ -12,7 +12,7 @@ document.write('Average =' + Average)
 // Đổi độ C sang độ F
 let inputC = prompt("C")
 let C = parseInt(inputC)
-let F = (C * 9) / 5 - 32
+let F = (C * 9) / 5 + 32
 document.write('F =' + F)
 
 // Diện tích hình tròn
